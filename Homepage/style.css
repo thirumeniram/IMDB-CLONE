@@ -5,24 +5,9 @@
 }
 
 body {
-  background-color: rgb(56, 56, 56);
+  background-color: #383838;
   font-family: "Montserrat", sans-serif;
   position: relative;
-}
-
-body::-webkit-scrollbar {
-  width: 5px;
-  border-radius: 15px;
-}
-
-body::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px white;
-  border-radius: 15px;
-}
-
-::-webkit-scrollbar-thumb {
-  background: black;
-  border-radius: 10px;
 }
 
 .imdb-logo img {
@@ -159,7 +144,7 @@ body::-webkit-scrollbar-track {
 }
 
 #Movies-component {
-  background-color: rgb(11, 3, 32);
+  background-color: #0b0320;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -171,8 +156,7 @@ body::-webkit-scrollbar-track {
   width: 300px;
   margin: 1rem;
   border-radius: 3px;
-  box-shadow: 1px 4px 5px rgba(141, 141, 141, 0.2),
-    -2px -4px 5px rgba(218, 207, 207, 0.2);
+  box-shadow: 1px 4px 5px #8d8d8d33, -2px -4px 5px #dacfcd33;
   position: relative;
   overflow: hidden;
 }
@@ -184,7 +168,7 @@ body::-webkit-scrollbar-track {
 }
 
 .movie-component:hover {
-  background: rgba(18, 2, 96, 0.5);
+  background: #12026080;
 }
 
 .movie-info {
@@ -223,6 +207,21 @@ body::-webkit-scrollbar-track {
   color: #a98700;
 }
 
+body::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 15px;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px white;
+  border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 10px;
+}
+
 .overview {
   color: #fff;
   position: absolute;
@@ -236,3 +235,4 @@ body::-webkit-scrollbar-track {
   transform: translateY(-101%);
   transition: transform 0.4s ease-in;
 }
+
