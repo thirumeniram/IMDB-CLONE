@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(56, 56, 56);
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+}
+
+body::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 15px;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px white;
+  border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 10px;
+}
+
+.imdb-logo img {
+  width: 75px;
+  height: 35px;
+  margin-left: 110px;
+}
+
+.nav-menu {
+  background-color: black;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo-menu {
+  color: white;
+  width: 15%;
+  min-width: 170px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 800;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.Favourite {
+  color: white;
+  width: 30%;
+  min-width: 260px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: -50px;
+  font-size: 0.8rem;
+}
+
+.Favourite a {
+  text-decoration: none;
+  color: black;
+}
+
+.Favourite h3 a {
+  color: black;
+  padding: 6px 12px;
+  font-size: 1rem;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.Favourite h3 a:hover {
+  color: white;
+}
+
+.search-box {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  position: relative;
+}
+
+.search-box input {
+  position: absolute;
+  left: 25%;
+  width: 60%;
+  height: 30px;
+  padding-left: 50px;
+  border-radius: 6px;
+  min-width: 200px;
+  border: none;
+  outline-style: dotted;
+  font-size: 1rem;
+}
+
+#search-icon {
+  position: absolute;
+  right: 15px;
+  cursor: pointer;
+}
+
+.hover {
+  color: black;
+  padding: 6px 12px;
+  font-size: 2rem;
+  background-color: #cfa705;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.home-fav-icon {
+  text-decoration: #a98700;
+  padding-left: 5px;
+}
+
+.hover:hover {
+  color: white;
+  background-color: black;
+  border: 1px solid aqua;
+}
+
+.page-navigate {
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.page-navigate button {
+  background-color: #e5ba0e;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 1rem;
+  color: white;
+  border-radius: 10px;
+  border: none;
+}
+
+.page-navigate button:hover {
+  background-color: black;
+  border: 1px solid aqua;
+}
+
+#Movies-component {
+  background-color: rgb(11, 3, 32);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.movie-component {
+  background-color: #232330;
+  width: 300px;
+  margin: 1rem;
+  border-radius: 3px;
+  box-shadow: 1px 4px 5px rgba(141, 141, 141, 0.2),
+    -2px -4px 5px rgba(218, 207, 207, 0.2);
+  position: relative;
+  overflow: hidden;
+}
+
+.movie-component img {
+  width: 100%;
+  min-height: 80%;
+  border-radius: 10px;
+}
+
+.movie-component:hover {
+  background: rgba(18, 2, 96, 0.5);
+}
+
+.movie-info {
+  color: white;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 0.7rem;
+  letter-spacing: 0.5px;
+}
+
+.movie-info h3 {
+  margin: 10px 0px;
+}
+.movie-info:hover {
+  background-color: #232330;
+}
+
+.star-fab {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.25rem 0.5rem;
+  font-weight: bold;
+}
+
+.star-fab span {
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  background-color: #525454;
+}
+
+.icon-color {
+  color: #a98700;
+}
+
+.overview {
+  color: #fff;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding: 1rem;
+  background-color: inherit;
+  font-size: 0.8rem;
+  max-height: 100%;
+  transform: translateY(-101%);
+  transition: transform 0.4s ease-in;
+}

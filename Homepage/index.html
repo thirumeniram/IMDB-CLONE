@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>                                 
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IMDb</title>
+    <!-- style css link for index page  -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- here we use font awsome script toolkit -->
+    <script
+      src="https://kit.fontawesome.com/74894dafb2.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- google font link for awsome text  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+ 
+  <body>
+    
+    <section class="main">
+      <!-- navigation section html code which include logo(Menu) , searchBox , Favourites(favorite movie list)    -->
+
+      <nav class="nav-menu">
+        <!-- nav 1st child  -->
+       
+        <div class="logo-menu">
+          <div class="imdb-logo" id="i-logo">
+            <img src="../assets/IMDB.png" alt="imdb-logo" />
+          </div>
+        </div>
+        <!-- nav second child  -->
+        <div class="search-box">
+          <input
+            type="text"
+            name="searchMovie"
+            id="MoviesSearch"
+            placeholder="Search Your Favoutite Movies"
+            autocomplete="off"
+          />
+        </div>
+        <!-- nav 3rd child  -->
+        <div class="Favourite">
+          <a href="../Favourites/favourites.html">
+            <h3 class="hover"><i class="fa-solid fa-folder-plus"></i><span class="home-fav-icon">Favourites</span</h3>
+           
+          </a>
+          
+        </div>
+      </nav>
+
+     
+
+      <!-- container for movies list coming from API ,where I use Api and form dynamic Html Element that append here-->
+      <div id="Movies-component">
+       
+        </div> 
+      </div>
+      <div class="page-navigate">
+        <button class="prevPage">Prev</button>
+        <button class="nextPage">Next</button>
+      </div>
+    </section>
+    <!-- external javascript for home page  -->
+    <script type="text/javascript" src="./index.js"></script>
+  </body>
+</html>
