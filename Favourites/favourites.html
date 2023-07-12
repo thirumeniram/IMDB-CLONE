@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Favorite List</title>
+
+    <!-- this is common css  -->
+    <link rel="stylesheet" href="../Homepage/style.css" />
+    <!-- style css link for index page  -->
+    <link rel="stylesheet" href="./favourites.css" />
+    <!-- here we use font awsome script toolkit -->
+    <script
+      src="https://kit.fontawesome.com/74894dafb2.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- google font link for awsome text  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- this is the main container of website  -->
+    <section class="main">
+      <nav class="nav-menu">
+        <!-- nav 1st child  -->
+        <div class="logo-menu">
+          <div class="imdb-logo">
+            <a href="../Homepage/index.html">
+              <img src="../assets/IMDB.png" alt="imdb-logo" />
+            </a>
+          </div>
+        </div>
+        <div class="my-fav"><h1>Favourites</h1></div>
+        <!-- nav 2rd child  -->
+        <div id="btns">
+          <button id="clear-whole-list" class="clear-btn">Clear All</button>
+        </div>
+      </nav>
+
+      <!-- all the movies will be displayed here using API  -->
+      <div id="movie-container">
+        <!-- dynamic html container and related element come across this list container  -->
+      </div>
+    </section>
+
+    <!-- external script for this page  -->
+    <script type="text/javascript" src="./favourites.js"></script>
+  </body>
+</html>

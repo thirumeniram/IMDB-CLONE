@@ -1,0 +1,81 @@
+.my-fav {
+  color: #fff;
+  font-size: 1.2rem;
+  padding-top: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.clear-btn {
+  padding: 6px 12px;
+  background-color: #cfa705;
+  font-size: 1rem;
+  border-radius: 5px;
+  color: black;
+  font-weight: 600;
+  border: 1px solid yellow;
+  cursor: pointer;
+  position: absolute;
+  right: 5%;
+  margin-top: 10px;
+}
+.clear-btn:hover {
+  color: white;
+  background-color: black;
+  border: 1px solid aqua;
+}
+
+#movie-container {
+  background: rgb(23, 12, 38);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 100%;
+}
+.details {
+  margin: 20px;
+  border-radius: 20px;
+  background-color: rgb(56, 44, 75);
+}
+
+#movieimg {
+  border-radius: 20px;
+  height: 420px;
+  width: 340px;
+}
+
+#details {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  background-color: black;
+}
+
+.title {
+  max-width: 200px;
+}
+.title a {
+  font-size: 1.2rem;
+  color: white;
+  text-decoration: none;
+}
+
+#removeicon {
+  font-size: 1.6rem;
+  color: red;
+  cursor: pointer;
+  background-color: #34495e;
+  color: #fff;
+  border-radius: 50%;
+  padding: 15px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+#removeicon:hover {
+  background-color: #243342;
+}
