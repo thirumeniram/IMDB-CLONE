@@ -30,7 +30,7 @@
 }
 
 #movie-container {
-  background: rgb(23, 12, 38);
+  background: #170c26;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -39,7 +39,7 @@
 .details {
   margin: 20px;
   border-radius: 20px;
-  background-color: rgb(56, 44, 75);
+  background-color: #382c4b;
 }
 
 #movieimg {
@@ -79,3 +79,4 @@
 #removeicon:hover {
   background-color: #243342;
 }
+
