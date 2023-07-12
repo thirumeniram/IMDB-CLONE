@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Information</title>
+    <!-- common css styles  -->
+    <link rel="stylesheet" href="../Homepage/style.css" />
+    <!-- Extenal css for movie page  -->
+    <link rel="stylesheet" href="./movies.css" />
+
+    <!-- Font Awesome script toolkit  -->
+    <script
+      src="https://kit.fontawesome.com/74894dafb2.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Google Fonts link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <section class="main">
+      <!-- navigation section    -->
+      <nav class="nav-menu">
+        <div class="logo-menu1">
+          <div class="imdb-logo">
+            <a href="../Homepage/index.html"
+              ><img src="../assets/IMDB.png" alt="imdb-logo"
+            /></a>
+          </div>
+        </div>
+      </nav>
+
+      <!-- main div  -->
+      <div id="main">
+        <!-- container for movie list coming from  API ,where i use Api nd form dynamic Html Element that append here-->
+        <!-- movie is displayed here  -->
+        <div id="movie-display"></div>
+      </div>
+    </section>
+    <!-- external javascript for movie page  -->
+    <script type="text/javascript" src="./movies.js"></script>
+  </body>
+</html>
