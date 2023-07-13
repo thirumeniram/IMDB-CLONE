@@ -19,7 +19,7 @@ The IMDB  application is a space for movie enthusiasts worldwide to effortlessly
   - Detailed information about the movie, including its name, photo, plot, and more.
 
 - **Favourite movies Page:**
-  - Display a list of all your favorite movies.
+  - Displays the list of all your favorite movies.
   - Persistence of the favorite movies list, ensuring it remains intact even after closing or refreshing the browser.
   - Each movie in the list has a "Remove from favorites" button to easily remove it from the list.
 
