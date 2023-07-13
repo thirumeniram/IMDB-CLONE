@@ -8,6 +8,22 @@ The IMDB  application is a space for movie enthusiasts worldwide to effortlessly
 - **CSS**
 - **JavaScript**
 
+## Features
+
+- **Home Page:**
+  - Search any movie from the API and display the search results on the frontend, with real-time updates as you type.
+  - Each search result of the movie has a favorite button, allowing you to add movies to your "My favorite movies" list.
+  - Clicking on any particular search result opens a new page with more information about that movie.
+
+- **Movie Page:**
+  - Detailed information about the movie, including its name, photo, plot, and more.
+
+- **My favorite movies Page:**
+  - Display a list of all your favorite movies.
+  - Persistence of the favorite movies list, ensuring it remains intact even after closing or refreshing the browser.
+  - Each movie in the list has a "Remove from favorites" button to easily remove it from the list.
+
+
 
 
 <div align="center">
