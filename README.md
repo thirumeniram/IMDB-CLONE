@@ -2,7 +2,7 @@
 
 The IMDB  application is a space for movie enthusiasts worldwide to effortlessly explore films, ratings, and reviews.
 
-# TechStack
+## TechStack
 
 - **HTML**
 - **CSS**
