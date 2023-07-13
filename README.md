@@ -2,6 +2,8 @@
   <h1>IMDB-CLONE</h1>
 </div>
 
+The IMDB  application is a space for movie enthusiasts worldwide to effortlessly explore films, ratings, and reviews.
+
 <div align="center">
   <h1>Home-Page</h1>
 </div>
@@ -19,6 +21,8 @@
 </div>
 
 ![IMDB Favourites](https://github.com/thirumeniram/IMDB-CLONE/assets/66516937/aa37f07e-4078-4d90-b73a-bcdd6e7b233f)
+
+
 
 
 
