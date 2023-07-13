@@ -11,7 +11,7 @@ The IMDB  application is a space for movie enthusiasts worldwide to effortlessly
 ## Features
 
 - **Home Page:**
-  - Search any movie from the API and display the search results on the frontend, with real-time updates as you type.
+  - Searching any movie, will display the search results on the page, with real-time updates as you type.
   - Each search result of the movie has a favorite button, allowing you to add movies to your "My favorite movies" list.
   - Clicking on any particular search result opens a new page with more information about that movie.
 
