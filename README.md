@@ -1,8 +1,8 @@
-<div align="center">
-  <h1>IMDB-CLONE</h1>
-</div>
+# IMDB-CLONE
 
 The IMDB  application is a space for movie enthusiasts worldwide to effortlessly explore films, ratings, and reviews.
+
+
 
 <div align="center">
   <h1>Home-Page</h1>
